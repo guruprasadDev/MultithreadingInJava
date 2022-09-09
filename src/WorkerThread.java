@@ -8,10 +8,10 @@ class WorkerThread implements Runnable {
     }
     public void run() {
         System.out.println(Thread.currentThread().getName()+" (Start) message = "+message);
-        processmessage();
+        processMessage();
         System.out.println(Thread.currentThread().getName()+" (End)");
     }
-    private void processmessage() {
+    private void processMessage() {
         try {  Thread.sleep(6000);  } catch (InterruptedException e) { e.printStackTrace(); }
     }
 }
