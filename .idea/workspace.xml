@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02726f03-bfd7-490f-9bdc-09fe851c82db" name="Changes" comment="">
+    <list default="true" id="02726f03-bfd7-490f-9bdc-09fe851c82db" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/MutltiThreading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LifeCycleOfThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LifeCycleOfThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiThreading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662627611340</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1662704340010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662704340010</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
