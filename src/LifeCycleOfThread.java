@@ -11,7 +11,7 @@
 
  */
 
-class thread implements Runnable {
+class NewThread implements Runnable {
     public void run()
     {
         // moving thread2 to timed waiting state
@@ -58,7 +58,7 @@ public class LifeCycleOfThread implements Runnable {
 
     public void run()
     {
-        thread myThread = new thread();
+        NewThread myThread = new NewThread();
         Thread thread2 = new Thread(myThread);
 
         // thread1 created and is currently in the NEW
@@ -66,7 +66,7 @@ public class LifeCycleOfThread implements Runnable {
         System.out.println(
                 "State of thread2 after creating it - "
                         + thread2.getState());
-        thread2.start();
+        thread2.run();
 
         // thread2 moved to Runnable state
         System.out.println(
