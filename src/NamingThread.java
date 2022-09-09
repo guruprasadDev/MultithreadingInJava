@@ -12,6 +12,8 @@ class NamingThread extends Thread{
         System.out.println("Name of thread 0-"+t1.getName());
         System.out.println("Name of thread 1-"+t2.getName());
 
+
+
         t1.start();
         t2.start();
 
